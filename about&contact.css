@@ -1,0 +1,14 @@
+
+
+* {
+    box-sizing: border-box;
+    background-color: #8D89A6;
+}
+
+header {
+    font-family: chalkduster;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    color: #A30B37;
+}

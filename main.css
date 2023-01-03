@@ -1,0 +1,210 @@
+
+* {
+    box-sizing: border-box;
+    background-color: #8D89A6;
+}
+/* list of books */
+#shelfList{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 0px;
+}
+header {
+    font-family: chalkduster;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    color: #A30B37;
+}
+
+.addBookInputs{
+    background-color: white;
+    border-radius: 10px;
+    font-size: .8em;
+}
+
+/* title of the book */
+#title {
+    background-color: #F2D5F8;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0px;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 20px;
+}
+
+/* keys for book class */
+.key {
+    background-color: #F2D5F8;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #0E103D;
+    margin-left: 8px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* values for book class */
+.value {
+    background-color: #F2D5F8;
+    font-size: .8em;
+    font-weight: normal;
+    color: #0E103D;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* area arounud each book key/value information */
+#eachBook {
+    list-style-type: none;
+    box-shadow: 10px 10px 8px #3f2940;
+    background-color: #F2D5F8;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-bottom: 28px;
+}
+
+.bookElements{
+    background-color: #F2D5F8;
+}
+/* little icon at top left corner of each book */
+#title::before {
+    content: 'menu_book';
+    font-family: 'material symbols outlined';
+    font-size: 1em;
+   
+}
+
+/* search bar */
+#searchBar {
+    background-color: white;
+    border-radius: 10px;
+    font-size: .8em;
+    height: 2em;
+}
+
+#searchButton{
+    background-color: #f7d1cd;
+    font-weight:bold ;
+    font-size: 1em;
+}
+#dropButton{
+    background-color: #f7d1cd;
+    font-weight:bold ;
+    font-size: 1em;
+    height: 2em;
+}
+
+#addButton{
+    background-color: #f7d1cd;
+    font-weight:bold ;
+    font-size: 1em;
+}
+/* slection for dropdown in sort by */
+.options{
+    background-color: white;
+}
+
+.options:hover{
+    background-color: #F2D5F8;
+}
+
+.commentButton{
+    background-color:  #8f7195;
+    border-radius: 3px;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-left: 40px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.removeButton{
+    background-color:  #F2D5F8;
+    border-radius: 3px;
+    border-color: #F2D5F8;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.commentArea{
+    background-color: #F2D5F8;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #0E103D;
+}
+
+#eachComment{
+    background-color: #F2D5F8;
+    font-size: .8em;
+    font-weight: normal;
+    color: #0E103D;
+    border-radius: 20px;
+    position: relative;
+
+    width: 80%;
+    overflow-wrap: break-word;
+}
+#commentList{
+    background-color: #F2D5F8;
+    padding: 5px;
+}
+
+.commentInput{
+    background-color: white;
+    border-radius: 4px;
+    font-size: .8em;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.submitComment{
+    background-color:  #8f7195;
+    border-radius: 3px;
+    padding-bottom: 5px;
+}
+
+.commentInputArea{
+    display: none;
+    background-color: #F2D5F8;
+}
+
+#searchInfo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    padding-right: 3em;
+}
+#addBookArea{
+    padding-top: 1em;
+    margin-bottom: 0px;
+}
+
+#eachComment::before {
+    content: 'insights';
+    font-family: 'material symbols outlined';
+    font-size: 1.5em;
+   
+}
+#commentList{
+    list-style-type: none;
+}
+
+.show{
+    display: block;
+}

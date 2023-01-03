@@ -1,0 +1,33 @@
+.dropDownArea{
+    position: relative;
+    display: inline-block;
+}
+
+
+#dropButton:hover, 
+#dropButton:focus{
+background-color: #dfb5b0;
+}
+
+#dropButton{
+    background-color: #f7d1cd;
+    font-weight:bold ;
+    font-size: 1em;
+}
+.dropOptions{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#dropOptions a{
+    display: block;
+   background-color: #e9d9d9;
+}
+
+#dropOptions a:hover{
+  background-color: rosybrown;
+}
+.show{
+    display: block;
+}
